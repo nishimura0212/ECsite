@@ -21,10 +21,10 @@ public class PurchaseHistoryInfoDAO {
 
 		String sql="SELECT"
 				+ " pi.product_name as product_name,"			// 商品名
-				+ " pi.product_name_kana as product_name_kana,"	// ふりがな
+				+ " pi.product_name_kana as product_name_kana,"		// ふりがな
 				+ " pi.image_file_path as image_file_path,"		// 画像ファイルパス
 				+ " pi.image_file_name as image_file_name,"		// 画像ファイル名
-				+ " phi.price as price,"						// 単品価格
+				+ " phi.price as price,"				// 単品価格
 				+ " phi.product_count as product_count,"		// 個数
 				+ " pi.release_date as release_date,"			// 発売年月日
 				+ " pi.release_company as release_company"		// 発売会社名
